@@ -1,0 +1,139 @@
+body{
+	background: #e7e6e1;
+	color: black
+	font-size:16px ;
+	margin: 30px
+	padding: 20px;
+}
+h1{
+	color: #521262;
+	font-family: 'Great Vibes', cursive;
+	font-style: 20px;
+	font-weight: bold;
+	margin: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+}
+a {
+  color: #00909e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #e43f5a;
+  text-decoration: none;
+}
+/*custom and design*/
+.container{
+	width: 1300px;
+	margin: 20px auto;
+}
+@media(max-width: 960px){
+	.container{
+		width: 700px; 
+	}
+}
+@media(max-width: 600px){
+	.container{
+		width: 450px;
+	}
+} 
+.card-white{
+	background: #e6dedd;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+	border-radius: 4px;
+	margin: 20px;
+}
+.card-white p{
+	color: #900c3f;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'IM Fell English';
+	text-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+	font-style: normal;
+	font-weight: bold;
+}
+
+.card-white h2:hover{
+	color: #00909e;
+}
+
+.catégorie1{
+	font-family: 'Great Vibes';
+	font-size: 40px;
+	color: #521262;
+	font-weight: bolder;
+	text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.catégorie2{
+	font-family: 'Great Vibes';
+	font-size: 40px;
+	color: #8d6262;
+	font-weight: bolder;
+	text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+}
+.catégorie3{
+	font-family: 'Great Vibes';
+	font-size: 40px;
+	color: #521262;
+	font-weight: bolder;
+	text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+}
+.catégorie4{
+	font-family: 'Great Vibes';
+	font-size: 40px;
+	color: #8d6262;
+	font-weight: bolder;
+	text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.btn-blue{
+	background-color: #142850;
+	color: white;
+	padding: 10px 15px;
+}
+
+
+.footer{
+    font-family: 'Great Vibes', serif;
+	color: #393232;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 40px;
+	margin: 30px
+}
+.img-circle{
+	border-radius: 500px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; 
+    padding: 5px;
+}
+img:hover {
+  transform: scaleX(-1);
+  box-shadow: 10px 5px 30px rgba(26191b , 0.9);
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-inline i:hover{
+	color: purple;
+}
+
+
+
+
